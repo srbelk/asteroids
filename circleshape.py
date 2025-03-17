@@ -23,5 +23,5 @@ class CircleShape(pygame.sprite.Sprite):
         r2 = CircleShape.radius
 
         if CircleShape:
-            if distance <= r1 + r2:
-                raise SystemExit("Game Over!")
+            return distance <= r1 + r2
+                
